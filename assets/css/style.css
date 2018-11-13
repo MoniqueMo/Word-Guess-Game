@@ -1,0 +1,61 @@
+body {
+    
+    background-image: url("../images/disneybackground.png");
+    background-size: cover;
+    color:white;
+    
+}
+.background{
+    background: none;
+    
+}
+
+#new-game-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background-color: white;
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow:6px 6px gray
+}
+
+#new-game-button:hover {
+    box-shadow: 4px 4px gray;
+    top: 2px
+}
+
+#new-game-button:active {
+    box-shadow: 0px 0px gray;
+    top: 6px
+}
+
+#placeholder-section{
+    background-color:rgb(1, 13, 20);
+    opacity: .55;
+}
+
+#placeholders {
+    letter-spacing: 6px;
+    font-size: 35px;
+}
+
+#guesses{
+    background-color:rgb(1, 13, 20); 
+    opacity: .70;
+}
+#winning{
+    background-color:rgb(1, 13, 20);
+    opacity: .70;
+}
+#lossing{
+    background-color:rgb(1, 13, 20); 
+    opacity: .70;
+}
